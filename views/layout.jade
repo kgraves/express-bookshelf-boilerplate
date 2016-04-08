@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+
+    //- styles
+    //- TODO
+    link(rel='stylesheet', href='')
+
+    //- add all styles in view params
+    if styles
+      each style in styles
+        link(rel='stylesheet', href=style)
+
+    //- js
+    //- TODO
+    script(src='')
+
+    //- add all scripts in view params
+    if scripts
+      each script in scripts
+        script(src=script)
+
+  body
+    block content

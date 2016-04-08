@@ -1,0 +1,47 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "bookshelf": "0.9.4",
+    "candoo": "1.1.0",
+    "config": "1.20.0",
+    "cookie-parser": "1.4.1",
+    "debug": "2.2.0",
+    "express": "4.13.4",
+    "express-session": "1.13.0",
+    "jade": "1.11.0",
+    "js-yaml": "3.5.5",
+    "jshare": "0.0.9",
+    "knex": "0.10.0",
+    "morgan": "1.7.0",
+    "pg": "4.5.2",
+    "qs": "6.1.0",
+    "request": "2.70.0",
+    "serve-favicon": "2.3.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "bluebird": "3.3.4",
+    "chai": "3.5.0",
+    "gulp": "3.9.1",
+    "gulp-istanbul": "0.10.4",
+    "gulp-jshint": "2.0.0",
+    "gulp-mocha": "2.2.0",
+    "istanbul": "0.4.3",
+    "jshint": "2.9.1",
+    "jshint-stylish": "2.1.0",
+    "mocha": "2.4.5",
+    "mockery": "1.4.1",
+    "sinon": "1.17.3",
+    "sqlite3": "3.1.3"
+  }
+}

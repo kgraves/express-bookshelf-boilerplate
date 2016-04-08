@@ -1,0 +1,12 @@
+# Logs
+logs/
+*.log
+
+# locally installed modules/libraries via npm and bower
+node_modules/
+
+# sqlite dev/test databases
+*.sqlite3
+
+# code coverage info
+coverage/
